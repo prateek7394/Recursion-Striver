@@ -25,9 +25,9 @@ void print(int idx, vector<int> &temp, int sum, int K, int arr[], int n){
 
 int main()
 {
-    int arr[] = {1, 2, 1};
-    int n = 3;
-    int K = 2;
+    int arr[] = {2,5,2,1,2};
+    int n = 5;
+    int K = 5;
     vector<int> ds;
     print(0, ds, 0, K, arr, n);
     return 0;
